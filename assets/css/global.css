@@ -1,10 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-hollow');
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #000000;
 }
 
 .content {
@@ -21,4 +23,41 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #000000;
+    font-size: 0.75rem;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
+footer a {
+    color: #ff3434;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff0000;
+}
+
+footer .social-icons {
+    margin-top: 0.5rem;
+}
+
+footer .social-icons a {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    display: inline-block;
+}
+
+footer .social-icons a:hover {
+    color: #ff0000;
 }
