@@ -21,3 +21,5 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 * [JAVASCRIPT]
 * [PokeAPI](https://pokeapi.co/)
 
+## 🎯 Resultado
+
