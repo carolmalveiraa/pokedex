@@ -1,0 +1,48 @@
+@media screen and (max-width: 380px) {
+    #title {
+        font-size: 1.5rem;
+    }
+    
+    .search {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem; /* Adiciona espaçamento entre os elementos */
+    }
+
+    .search {
+        margin-top: 0.5rem;
+        width: 100%; /* Deixa o input de busca ocupar toda a largura */
+        max-width: 300px; /* Define um tamanho máximo */
+    }
+}
+    #title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .pokebola {
+        width: 70px; /* Reduz a largura */
+        height: 70px; /* Reduz a altura */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
